@@ -1,50 +1,31 @@
-Expense Tracker 💰
-Expense Tracker is a simple web application built using HTML, CSS, and JavaScript. It helps users manage their daily expenses, track income, and calculate their remaining balance.
+# Expense Tracker
 
-Features
-Add income and expenses.
+A clean, private expense tracker built with HTML, CSS, and JavaScript. Track spending, review trends, and keep your finances organized.
 
-View total income.
+[![Expense Tracker dashboard](./screenshots/expense-tracker.png)](./screenshots/expense-tracker.png)
 
-View total expenses.
+**[Open the live Expense Tracker](https://shreyasharma2304bih-lgtm.github.io/Expense_Tracker/)**
 
-Calculate total balance automatically.
+## Features
 
-View transaction history.
+- Monthly spending summary and transaction count
+- Seven-day spending chart and category insights
+- Add and delete expenses with category and date
+- Search and filter transactions
+- Export transactions as CSV
+- Responsive layout
+- Data stays in your browser on this device
 
-Delete transactions.
+## Run locally
 
-Simple and user-friendly interface.
+Clone the repository and open `index.html` in a browser. No build tools or dependencies are required.
 
-Responsive design.
+## Built with
 
-Technologies Used
-HTML5
+- HTML5
+- CSS3
+- JavaScript
 
-CSS3
+## Privacy
 
-JavaScript
-
-How to Run
-Download or clone the project.
-
-Open the project folder.
-
-Open index.html in your web browser.
-
-Start managing your income and expenses.
-
-Project Purpose
-The main purpose of this project is to learn basic web development concepts, including DOM manipulation, event handling, and JavaScript functionality.
-
-Future Improvements
-Add Local Storage.
-
-Add expense categories.
-
-Add monthly expense reports.
-
-Add charts and graphs.
-
-Author
-Shreya Sharma
+Transactions are stored in browser local storage on your device. They are not sent to a server.
