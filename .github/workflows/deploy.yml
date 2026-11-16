@@ -25,8 +25,10 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Prepare static site
         run: |
-          mkdir _site
-          cp index.html style.css script.js _site/
+          mkdir -p _site/css _site/js
+          cp index.html _site/
+          cp style.css _site/css/style.css
+          cp script.js _site/js/script.js
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
